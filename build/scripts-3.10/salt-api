@@ -1,0 +1,8 @@
+#!/opt/infra-app/.venv/bin/python3
+
+# Import salt libs
+from salt.scripts import salt_api
+
+
+if __name__ == '__main__':
+    salt_api()
